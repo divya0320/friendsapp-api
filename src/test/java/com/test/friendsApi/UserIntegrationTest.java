@@ -1,20 +1,15 @@
 package com.test.friendsApi;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.test.friendsApi.dao.FriendsRepo;
-import com.test.friendsApi.model.FriendIdentity;
 import com.test.friendsApi.model.Friends;
 import com.test.friendsApi.service.FriendDetailsService;
 
